@@ -1,0 +1,63 @@
+
+.heading-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+.heading-container .imdb-img h2{
+    /* border: 2px solid beige;
+    align-items: center; */
+    text-align: center;
+    color:#c46210;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+
+}
+.imdb-img h2:hover{
+    border: 2px solid #87cefa;
+}
+.heading-container input{
+    width: 87%;
+    padding: 5px;
+    
+    
+    border: none;
+    outline: none;
+}
+.heading-container .api-key,.movie-title{
+    display: flex;
+    align-items: center;
+    border: 2px solid;
+    border-radius: 6%;
+    
+   
+    
+   
+}
+.heading-container .api-key:hover{
+    border: 3px solid #87cefa;
+}
+.heading-container .movie-title:hover{
+    border: 2px solid #87cefa;
+}
+
+
+.container{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(5,18%);
+    gap:1.2rem;
+}
+.imdb{
+ display: flex;
+ flex-direction: column;
+ gap: 0.5rem;
+ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ background-color:#e8f48c;
+}
+
+.imdb .poster img{
+    width: 101%;
+}
+.imdb div{
+    
+}
